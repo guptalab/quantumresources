@@ -1,0 +1,70 @@
+/* Updated CSS for company cards */
+.company {
+    /* height: 100%; */
+    width: 70%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .company-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .company-card {
+    width: 300px;
+    height: 140px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Style the company name */
+  .company-card h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  /* Style the company details */
+  .company-card p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Style the "Visit Website" link */
+  .company-card a {
+    text-decoration: none;
+    background-color: #0074cc;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .company-card a:hover {
+    background-color: #0055a5;
+  }
+  .company-card:hover{
+  transform: translateY(-10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.947); 
+  }
+
+  @media (max-width: 520px) {
+  .company{
+    border: 0;
+    width: 90%
+  }
+}

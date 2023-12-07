@@ -1,0 +1,125 @@
+
+  
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+  footer {
+    background-color: #f6f5f5;
+    margin-top: 40px;
+    
+  }
+  footer .container {
+    padding-top: 10px;
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+
+  .icon {
+    background-color: hsla(0,0%,100%,.3);
+    border-radius: 50%;
+    color: #0c356a;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition: .5s;
+    width: 40px;
+}
+.flexSB {
+    display: flex;
+    justify-content: space-between;
+}
+  @media screen and (max-width: 768px) {
+    footer .container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  footer .logo1 span {
+    color: #007BFF;
+    font-size: 14px;
+  }
+  footer .logo1 p {
+    color: grey;
+    margin: 30px 0 15px 0;
+  }
+  footer .logo1 .icon {
+    background-color: #007BFF;
+    color: white;
+    margin-right: 10px;
+  }
+  footer h3 {
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+  footer ul li {
+    margin-bottom: 20px;
+  }
+  footer .link li::before {
+    content: "⟶";
+    color: #007BFF;
+    margin-right: 5px;
+  }
+  footer .items {
+    margin-bottom: 30px;
+  }
+  footer .items img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  footer .items span,
+  footer .items i {
+    font-size: 12px;
+    color: #007BFF;
+    margin-right: 5px;
+    text-transform: capitalize;
+  }
+  footer h4 {
+    font-weight: 400;
+    margin-top: 5px;
+  }
+  footer .last ul li {
+    display: flex;
+    margin-bottom: 50px;
+  }
+  footer .last i {
+    width: 60px;
+    font-size: 20px;
+    color: #007BFF;
+  }
+  .legal {
+    text-align: center;
+    padding: 50px 0;
+    color: grey;
+    background-color: #686262;
+  }
+  .legal p {
+    font-size: 15px;
+  }
+  .legal i {
+    color: #0c356a;
+  }
+  
+  .box.link ul li a {
+    color: #333; 
+    text-decoration: none;
+    transition: color 0.3s ease; 
+  }
+  
+  .box.link ul li a:hover {
+    color: #007bff; 
+  }
+  .last ul li a{
+    color: #333; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  .last ul li a:hover{
+    color: #007bff; 
+  }
+
+  .Disclaimer{
+    width: 80%;
+  }
