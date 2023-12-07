@@ -4,7 +4,7 @@ import './simulatorspage.css';
 
 const Simulator = () => {
   const languages = simulatorsByLanguage.map((languageGroup) => languageGroup.language); // Extract languages from data
-  const [selectedLanguage, setSelectedLanguage] = useState(null);
+  const [selectedLanguage, setSelectedLanguage] = useState(languages[0]);
 
   const toggleLanguage = (language) => {
     setSelectedLanguage(selectedLanguage === language ? null : language);
@@ -25,7 +25,14 @@ const Simulator = () => {
           ))}
         </div>
         {selectedLanguage && (
+          <>
+          <div className='selected-language'>
+           <h3 style={{background:"#007bff"}}> Selected Language:{selectedLanguage}</h3>
+           </div>
           <div className="simulator-container">
+           
+           
+           
             {simulatorsByLanguage
               .find((languageGroup) => languageGroup.language === selectedLanguage)
               .simulators.map((simulator, index) => (
@@ -37,6 +44,7 @@ const Simulator = () => {
                 </div>
               ))}
           </div>
+          </>
         )}
       </div>
     </div>

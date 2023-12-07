@@ -162,25 +162,28 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/companies" element={<Companies />} />
-        <Route path="/researchpapers" element={<Researchpapers />} />
-        <Route path="/tools" element={<Tools />} />
+        <Route path="/quantum" element={<Home />} />
+        
+        <Route path="/quantum/companies" element={<Companies />} />
+        <Route path="/quantum/researchpapers" element={<Researchpapers />} />
+        <Route path="/quantum/tools" element={<Tools />} />
         {/* <Route path="/tutorials" element={<Tutorials />} /> */}
       
-        <Route path="/youtubecontent" element={<YouTubeContent />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route path="/books" element={<Books />} />
+        <Route path="/quantum/youtubecontent" element={<YouTubeContent />} />
+        <Route path="/quantum/courses" element={<Courses />} />
+        <Route path="/quantum/books" element={<Books />} />
        
 
-        <Route path="/simulators" element={<Simulators />} />
-        <Route path="/workshops" element={<Workshops />} />
-        <Route path="/workingpeople" element={<WorkingPeople />} />
-        <Route path="/workingpeopleindia" element={<WorkingPeopleIndia />} />
+        <Route path="/quantum/simulators" element={<Simulators />} />
+        <Route path="/quantum/workshops" element={<Workshops />} />
+        <Route path="/quantum/workingpeople" element={<WorkingPeople />} />
+        <Route path="/quantum/workingpeopleindia" element={<WorkingPeopleIndia />} />
 
-        <Route path="/patents" element={<Patents />} />
-        <Route path="/articles" element={<Articles />} />
-      </Routes>
+        <Route path="/quantum/patents" element={<Patents />} />
+        <Route path="/quantum/articles" element={<Articles />} />
+        </Routes>
+       
+     
     </Router>
   );
 };

@@ -1,6 +1,6 @@
 import React from "react"
 import "./Footer.css"
-
+import logo from '../Images/logo.jpeg';
 const Footer = () => {
   return (
     <>
@@ -9,9 +9,14 @@ const Footer = () => {
     
       <footer>
         <div className='container padding'>
-          <div className='box logo2'>
-            <h1>Resources Quantum Computing</h1>
-            <span>ONLINE EDUCATION & LEARNING</span>
+          <div className='box logo2 '>
+          <div className="logo">
+          {/* <a href="https://www.guptalab.org/" target="_blank" rel="noopener noreferrer"></a> */}
+            <img src={logo} alt="logo" ></img>
+            </div>
+            <a href="https://www.guptalab.org/" target="_blank" rel="noopener noreferrer"> <h1 style={{color:'black'}}>Gupta Lab</h1></a>
+            <h2 style={{color:'#A9A9A9'}}>Laboratory of Natural Information Processing</h2>
+            
            
            
           </div>
@@ -40,7 +45,7 @@ const Footer = () => {
             <ul>
             <li>
             <i className='fas fa-bolt'></i>  {/*icon has to be added*/}
-                <p className="Disclaimer">This is an ongoing project, and the website does not contain complete data. If you have any suggestions for adding data, please email us at the address below.</p>
+                <p className="note">This is an ongoing project, and the website does not contain complete data. If you have any suggestions for adding data, please email us at the address below.</p>
               </li>
               <li>
               <i className='fas fa-envelope'></i>
@@ -48,6 +53,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+        <div className="Disclaimer">
+        <p >The information provided on the webpage is for educational and research purposes. The webpage contains links to third-party website and we are not responsible for the privacy practices or content of these websites or the data that they provide. Please use it at your own risk. Last updated on December 7, 2023. For any further information or suggestion you may reach to us at <a href="mailto:quantum_computing@guptalab.org">quantum_computing@guptalab.org</a>.</p>
         </div>
       </footer>
     

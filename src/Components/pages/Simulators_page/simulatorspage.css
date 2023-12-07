@@ -86,3 +86,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     }
+
+    .selected-language{
+      display: flex;
+      justify-content:center;
+    }

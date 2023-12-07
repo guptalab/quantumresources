@@ -26,6 +26,9 @@ const ResearchPapers = () => {
         </div>
         {selectedYear && (
           <div className="paper-container">
+            <div className='selected-year'>
+            <h3 style={{background:"#007bff"}}> Selected Year:{selectedYear}</h3>
+            </div>
             {papperData
               .find((yearGroup) => yearGroup.year === selectedYear)
               .pappers.map((paper, index) => (

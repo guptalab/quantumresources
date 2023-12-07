@@ -33,57 +33,57 @@ const Navbar = () => {
           }>
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/quantum">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/companies">Companies</NavLink>
+              <NavLink to="/quantum/companies">Companies</NavLink>
             </li>
             <li>
-              <NavLink to="/researchpapers">Research papers</NavLink>
+              <NavLink to="/quantum/researchpapers">Research papers</NavLink>
             </li>
             <li>
-              <NavLink to="/tools">Tools</NavLink>
+              <NavLink to="/quantum/tools">Tools</NavLink>
             </li>
             <li className="hoverable">
               <span>Tutorials</span>
               <div className="sub-menu">
                 <ul>
                   <li>
-                  <NavLink to="/youtubecontent">YouTube Content</NavLink>
+                  <NavLink to="/quantum/youtubecontent">YouTube Content</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/courses">Courses</NavLink>
+                    <NavLink to="/quantum/courses">Courses</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/books">Books</NavLink>
+                    <NavLink to="/quantum/books">Books</NavLink>
                   </li>
                 </ul>
               </div>
             </li>
             <li>
-              <NavLink to="/simulators">Simulators</NavLink>
+              <NavLink to="/quantum/simulators">Simulators</NavLink>
             </li>
             <li>
-              <NavLink to="/patents">Patents</NavLink>
+              <NavLink to="/quantum/patents">Patents</NavLink>
             </li>
             <li>
-              <NavLink to="/workshops">workshops</NavLink>
+              <NavLink to="/quantum/workshops">workshops</NavLink>
             </li>
             <li className="hoverable">
               <span>Working People</span>
               <div className="sub-menu">
                 <ul>
                   <li>
-                  <NavLink to="/workingpeopleindia">National People</NavLink>
+                  <NavLink to="/quantum/workingpeopleindia">National People</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/workingpeople">International People</NavLink>
+                    <NavLink to="/quantum/workingpeople">International People</NavLink>
                   </li>
                 </ul>
                 </div>
                 </li>
             <li>
-              <NavLink to="/articles">News</NavLink>
+              <NavLink to="/quantum/articles">News</NavLink>
             </li>
           </ul>
           

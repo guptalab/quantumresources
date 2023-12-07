@@ -5,6 +5,7 @@
   footer {
     background-color: #f6f5f5;
     margin-top: 40px;
+    padding: 20px;
     
   }
   footer .container {
@@ -120,6 +121,11 @@
     color: #007bff; 
   }
 
-  .Disclaimer{
+  .note{
     width: 80%;
   }
+
+  .Disclaimer{
+    
+  }
+  
